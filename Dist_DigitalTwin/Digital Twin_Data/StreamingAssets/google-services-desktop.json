@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "763195851489",
+    "firebase_url": "https://robo-database-a86a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "robo-database-a86a2",
+    "storage_bucket": "robo-database-a86a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763195851489:android:68f27fd71986702759eda0",
+        "android_client_info": {
+          "package_name": "com.ewteam.ARapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiSuTSdOze9hGCJRqBItzkX1kyoiQa144"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
