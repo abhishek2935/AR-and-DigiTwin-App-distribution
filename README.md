@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/1200x300/000000/FFFFFF/?text=AR-PULSE:+Industry+4.0+Ecosystem" alt="AR-Pulse Banner">
+  <img src="https://placehold.co/1200x300/000000/FFFFFF/png?text=AR-PULSE:+Industry+4.0+Ecosystem" alt="AR-Pulse Banner">
 
   <h1>🏭 AR-Pulse: AR-Enabled Fault Detection & Digital Twin Sync</h1>
 
@@ -49,9 +49,9 @@ Standard hobby servos and older industrial actuators operate in "open-loop" syst
 We physically modified standard actuators to expose their internal potentiometers, creating a closed-loop feedback system. This absolute position data is fed over industrial RS485 to an ESP32 edge device, which calculates real-time faults. Finally, operators can use an AR tablet/headset to overlay this live diagnostic data (joint angles, temperatures, fault states) directly onto the physical machine.
 
 <div align="center">
-  <img src="https://via.placeholder.com/400x300/222222/FFFFFF/?text=Digital+Twin+Sync+GIF" alt="Digital Twin Sync" width="45%">
+  <img src="https://placehold.co/400x300/222222/FFFFFF/png?text=Digital+Twin+Sync+GIF" alt="Digital Twin Sync" width="45%">
   &nbsp; &nbsp;
-  <img src="https://via.placeholder.com/400x300/222222/FFFFFF/?text=AR+Diagnostic+Overlay+GIF" alt="AR Overlay" width="45%">
+  <img src="https://placehold.co/400x300/222222/FFFFFF/png?text=AR+Diagnostic+Overlay+GIF" alt="AR Overlay" width="45%">
 </div>
 
 ---
@@ -68,7 +68,7 @@ We physically modified standard actuators to expose their internal potentiometer
 ## 🚀 System Architecture
 
 <div align="center">
-  <img src="https://via.placeholder.com/1000x400/EEEEEE/333333/?text=Drop+System+Architecture+Diagram+Here" alt="Architecture Diagram">
+  <img src="https://placehold.co/1000x400/EEEEEE/333333/png?text=Drop+System+Architecture+Diagram+Here" alt="Architecture Diagram">
 </div>
 
 1. **Physical Layer:** 6 DoF Robot Arm $\rightarrow$ Custom Feedback Servos $\rightarrow$ Arduino Nano $\rightarrow$ RS485.
@@ -186,36 +186,3 @@ We utilize the **New Input System**, AR Foundation, and ARCore XR Plugin. Androi
    #define WIFI_PASSWORD "Your_Password"
    #define FIREBASE_API_KEY "YOUR_WEB_API_KEY"
    #define FIREBASE_DB_URL "YOUR_DB_URL"
-3. Flash the code to the ESP32-C6.
-
-### 3. Unity & AR Deployment
-1. Install **Unity Hub** and **Unity 2021.3 LTS**.
-2. Clone this repo and open the Unity project.
-3. Download `google-services-desktop.json` (for PC) or `google-services.json` (for Android) from Firebase and place it in the `Assets/` folder.
-4. Import the Firebase Unity SDK (`FirebaseDatabase.unitypackage`). Click **Resolve Dependencies**.
-5. Go to **Build Settings** ➔ **Switch Platform** to Windows (for Desktop Twin) or Android (for AR).
-6. Build and Run!
-
----
-
-## 🚨 Error State Dictionary
-
-The ESP32 classifies physical anomalies into the following system states, which dictate the AR visual overlay:
-
-| Error Code | Designation | Trigger Condition | System Action |
-| :---: | :--- | :--- | :--- |
-| **0** | `SYSTEM_NOMINAL` | Physical pos matches Target pos within ± tolerance. | Green AR Overlay. Normal operation. |
-| **2** | `ERR_STALL` | Target changed, but Physical hasn't moved for >400ms. | Indicates physical jam or heavy load. |
-| **4** | `ERR_NOISE` | Position jumped impossibly fast (>10° per loop cycle). | Discards frame. Usually indicates wiring fault. |
-| **5** | `ERR_RANGE` | Analog feedback value outside 0-300 physical limit. | Triggers critical hardware inspection alert. |
-
----
-
-## 🤝 The Team
-
-Engineered and developed by students at **MIT World Peace University (Pune, India)**.
-
-* 👨‍💻 **Vedant Jadhav** - Firmware, Edge Logic, Servo Modifications & HW Integration
-* 👨‍💻 **Abhishek Patil** - Unity Application & AR Development
-* 👨‍💻 **Amey Ganorkar** - Hardware Assembly & Firmwar Dev
-
