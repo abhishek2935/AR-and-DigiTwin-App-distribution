@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/Thumbnail.webp">
 
   <h1>🏭 AR-Pulse: AR-Enabled Fault Detection & Digital Twin Sync</h1>
 
@@ -21,7 +20,17 @@
 </div>
 
 ---
+## 🎥 Project Demonstration
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=NxT_SRsNlPU">
+    <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/Thumbnail.webp" alt="AR-Pulse YouTube Demo" width="700">
+  </a>
+  <br>
+  <i>Click the image above to watch the full system demonstration on YouTube!</i>
+</div>
+
+---
 ## 📑 Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Core Innovations](#-core-innovations)
@@ -51,7 +60,7 @@ We physically modified standard actuators to expose their internal potentiometer
 <div align="center">
   <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/image6.gif" alt="Digital Twin Sync" width="45%">
   &nbsp; &nbsp;
-  <img src="https://placehold.co/400x300/222222/FFFFFF/png?text=AR+Diagnostic+Overlay+GIF" alt="AR Overlay" width="45%">
+  <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/AR.jpeg" alt="AR Overlay" width="45%">
 </div>
 
 ---
@@ -215,6 +224,6 @@ The ESP32 classifies physical anomalies into the following system states, which 
 
 Engineered and developed by students at **MIT World Peace University (Pune, India)**.
 
-* 👨‍💻 **Vedant Jadhav** - Firmware, Edge Logic, Servo Modifications & HW Integration
-* 👨‍💻 **Abhishek Patil** - Unity Application & AR Development
-* 👨‍💻 **Amey Ganorkar** - Hardware Assembly & Firmware Dev
+* 👨‍💻 **Vedant Jadhav** 
+* 👨‍💻 **Abhishek Patil** 
+* 👨‍💻 **Amey Ganorkar** 
