@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://placehold.co/1200x300/000000/FFFFFF/png?text=AR-PULSE:+Industry+4.0+Ecosystem" alt="AR-Pulse Banner">
+  <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/Thumbnail.webp">
 
   <h1>🏭 AR-Pulse: AR-Enabled Fault Detection & Digital Twin Sync</h1>
 
