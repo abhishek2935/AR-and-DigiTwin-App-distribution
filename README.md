@@ -68,7 +68,7 @@ We physically modified standard actuators to expose their internal potentiometer
 ## 🚀 System Architecture
 
 <div align="center">
-  <img src="https://placehold.co/1000x400/EEEEEE/333333/png?text=Drop+System+Architecture+Diagram+Here" alt="Architecture Diagram">
+  <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/sys_arch.jpg" alt="Architecture Diagram">
 </div>
 
 1. **Physical Layer:** 6 DoF Robot Arm $\rightarrow$ Custom Feedback Servos $\rightarrow$ Arduino Nano $\rightarrow$ RS485.
