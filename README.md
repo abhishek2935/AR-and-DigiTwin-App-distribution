@@ -49,7 +49,7 @@ Standard hobby servos and older industrial actuators operate in "open-loop" syst
 We physically modified standard actuators to expose their internal potentiometers, creating a closed-loop feedback system. This absolute position data is fed over industrial RS485 to an ESP32 edge device, which calculates real-time faults. Finally, operators can use an AR tablet/headset to overlay this live diagnostic data (joint angles, temperatures, fault states) directly onto the physical machine.
 
 <div align="center">
-  <img src="https://placehold.co/400x300/222222/FFFFFF/png?text=Digital+Twin+Sync+GIF" alt="Digital Twin Sync" width="45%">
+  <img src="https://github.com/abhishek2935/AR-and-DigiTwin-App-distribution/blob/main/assets/image6.gif" alt="Digital Twin Sync" width="45%">
   &nbsp; &nbsp;
   <img src="https://placehold.co/400x300/222222/FFFFFF/png?text=AR+Diagnostic+Overlay+GIF" alt="AR Overlay" width="45%">
 </div>
